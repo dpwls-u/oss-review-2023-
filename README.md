@@ -2,20 +2,26 @@
 # 🖥OSS 교과목 내용(Git & GitHub)의 정리
 * * *
 ## ▲ 깃설정에대해 알아보자
-```
-< 깃 설정 명령 구조 >
+
+> 깃 설정 명령 구조 
   - $ git config --설정범위 설정변수 설정값
   -설정 범위
     - [--system | --global | --local]
   - --global인 경우 설정 파일
     - c:user[사용자-계정].gitconfig
+> 깃설정
+    $ git config --global user.name ~~
 
+    $ git config --global user.email ~~
+    
+    $ git config --global core.autocrlf true
+    
+    $ git config --global core.safecrlf false
+    
+    $ git config --global core.editor 'code --wait'
+    
+    $ git config --global init.defalutBranch main
 
-
-- ㄹㄹㄹㄹ
-- 
-
-```
 ## ▲ 기말고사 범위 내용
 ```
 <다양한 브랜치 병합>
