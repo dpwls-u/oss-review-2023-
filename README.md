@@ -10,6 +10,7 @@
   - --global인 경우 설정 파일
     - c:user[사용자-계정].gitconfig
 > 깃설정
+> 
     $ git config --global user.name ~~
 
     $ git config --global user.email ~~
