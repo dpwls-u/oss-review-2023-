@@ -3,12 +3,6 @@
 * * *
 ## ▲ 깃설정에대해 알아보자
 
-> 깃 설정 명령 구조 
-  - $ git config --설정범위 설정변수 설정값
-  -설정 범위
-    - [--system | --global | --local]
-  - --global인 경우 설정 파일
-    - c:user[사용자-계정].gitconfig
 > 깃설정
 > 
     $ git config --global user.name ~~
