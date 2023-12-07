@@ -27,20 +27,20 @@
     
 ## ▲ 기말고사 범위 내용
 > 원격 저장소 복제
-   - `git clone https://github.com/ai7dnn/repo-sync.git`: 원격 저장소를 로컬로 복제하여 가져옵니다.
+  `git clone https://github.com/ai7dnn/repo-sync.git`: 원격 저장소를 로컬로 복제하여 가져옵니다.
 
 > 원격 저장소에서 수정 사항 가져오기
-   - `git pull origin main`: `origin` 원격 저장소의 `main` 브랜치에서 변경 사항을 가져와 현재 브랜치에 병합합니다.
-   - `git pull`: 기본 원격 저장소에서 변경 사항을 가져와 현재 브랜치에 병합합니다.
+  `git pull origin main`: `origin` 원격 저장소의 `main` 브랜치에서 변경 사항을 가져와 현재 브랜치에 병합합니다.
+  `git pull`: 기본 원격 저장소에서 변경 사항을 가져와 현재 브랜치에 병합합니다.
 
 > 원격 저장소에서 수정 사항 가져와 병합
-   - `git fetch origin main`: `origin` 원격 저장소의 `main` 브랜치에서 변경 사항을 가져옵니다.
-   - `git fetch`: 기본 원격 저장소에서 변경 사항을 가져옵니다.
-   - `git merge origin/main`: 가져온 변경 사항을 현재 브랜치에 병합합니다.
+  `git fetch origin main`: `origin` 원격 저장소의 `main` 브랜치에서 변경 사항을 가져옵니다.
+  `git fetch`: 기본 원격 저장소에서 변경 사항을 가져옵니다.
+  `git merge origin/main`: 가져온 변경 사항을 현재 브랜치에 병합합니다.
 
 > 로컬 저장소 수정 사항을 원격 저장소에 보내기
-   - `git push origin main`: 현재 브랜치의 변경 사항을 `origin` 원격 저장소의 `main` 브랜치에 보냅니다.
-   - `git push`: 설정된 기본 원격 저장소로 변경 사항을 보냅니다.
+  `git push origin main`: 현재 브랜치의 변경 사항을 `origin` 원격 저장소의 `main` 브랜치에 보냅니다.
+  `git push`: 설정된 기본 원격 저장소로 변경 사항을 보냅니다.
 
  이 명령어들은 Git을 사용하여 원격 저장소와 로컬 저장소 간에 변경 사항을 주고받을 때 사용하는 기본적인 명령어들입니다.
 
