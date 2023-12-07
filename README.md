@@ -93,32 +93,32 @@ git init basic : 현재 폴더 하부에 폴더 basic을 생성하고 git reposi
  - `git push origin main`: 현재 브랜치의 변경 사항을 `origin` 원격 저장소의 `main` 브랜치에 보냅니다.
   `git push`: 설정된 기본 원격 저장소로 변경 사항을 보냅니다.
 
- 이 명령어들은 Git을 사용하여 원격 저장소와 로컬 저장소 간에 변경 사항을 주고받을 때 사용하는 기본적인 명령어들입니다.
+ 원격 저장소와 로컬 저장소 간에 변경 사항을 주고받을 때 사용하는 기본적인 명령어들입니다.
 
-## ▲ 기말고사 범위 내용
-```
-<다양한 브랜치 병합>
-- 기준 브랜치에서 hotfix 브랜치 병합
-- 무조건 3-way 병합 수행
-- fast-foward인 경우에만 병합 진행
-- 현재 브랜치에서 커밋 하나만 생성해서 병합
+## ▲ 브랜치 병합
 
-*응애* //옆으로 기운? 글씨
-_응애s_
-**응애s**  //두꺼운 글씨
-__응애s__ 
-~~응애~~ //취소선? 그어짐
-```
+> 일반적인 브랜치 병합
+   - `git merge hotfix`: 기본적인 브랜치 병합 명령어로, fast-forward 또는 3-way merge 방식으로 병합합니다.
+
+> 무조건 3-way 병합 수행 
+   - `git merge --no-ff hotfix`: 항상 3-way merge 방식으로 브랜치를 병합합니다. Fast-forward가 되지 않도록 강제합니다.
+
+> Fast-forward인 경우에만 병합 진행
+   - `git merge --ff-only hotfix`: 가능한 경우에만 Fast-forward 병합을 진행하며, 그렇지 않으면 병합을 거부합니다.
+
+> 현재 브랜치에서 커밋 하나만 생성해서 병합
+   - `git merge --squash hotfix`: 브랜치를 병합하되, 하나의 커밋으로 압축하여 현재 브랜치에 적용합니다. 이를 통해 작업 히스토리를 간결하게 유지할 수 있습니다.
+
 ## ▲ 커밋 메시지 수정
 
 - 최신 커밋 메시지 수정
-  - *$ git commit --amend -m 'new message'*
+  - *$ git commit --amend –m 'new message'*
 - 편집기로 최신 커밋 메시지 수정
   - *$ git commit --amend*
 - 파일 수정 후 추가, 메시지 수정 없이 최신 커밋으로 수정
-  - *$ git commit --amend--no-edit*
+  - *$ git commit --amend --no-edit*
 - 이전 커밋 HEAD~2..HEAD까지 각각의 커밋을 수정
-  - *$ git rebase--interactive HEaD~3*
+  - *$ git rebase --interactive HEAD~3*
 
 
 
