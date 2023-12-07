@@ -5,17 +5,17 @@
 
 > 깃설정
 > 
-    $ git config --global user.name ~~
+$ git config --global user.name ai7dnn 사용자 이름
 
-    $ git config --global user.email ~~
-    
-    $ git config --global core.autocrlf true
-    
-    $ git config --global core.safecrlf false
-    
-    $ git config --global core.editor 'code --wait'
-    
-    $ git config --global init.defalutBranch main
+$ git config --global user.email ai7dnn@gmail.com 사용자 전자메일
+
+$ git config --global core.autocrlf true 줄바꿈 자동변환
+
+$ git config --global core.safecrlf false 줄바꿈 안전 설정
+
+$ git config --global core.editor 'code --wait' 기본 편집기 설정
+
+$ git config --global init.defaultBranch main 기본 브랜치 이름
 
     
 ## ▲ 원격저장소
