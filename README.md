@@ -29,7 +29,23 @@ $ cd basic 폴더 이동
 
 $ ls -al 파일 확인
 
-    
+## ▲ 깃커밋 로그
+> status 
+
+- 파일 처음 생성:
+    - **상태**: Untracked file (붉은 색 - 작업 디렉토리)
+
+- 처음 add한 파일:
+    - **상태**: A new file (녹색 - 스테이징 영역)
+
+- 다시 수정한 파일:.
+    - **상태**: Modified file (붉은 색 - 작업 디렉토리)
+    - 작업 디렉토리의 파일이 수정됨
+
+- 수정한 파일을 add:
+    - **상태**: Modified file (녹색 - 스테이징 영역)
+    - 스테이징 영역의 파일이 수정됨
+
 ## ▲ 원격저장소
 > 원격 저장소 복제
   - `git clone https://github.com/ai7dnn/repo-sync.git`: 원격 저장소를 로컬로 복제하여 가져옵니다.
