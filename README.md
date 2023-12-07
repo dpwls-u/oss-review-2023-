@@ -5,9 +5,9 @@
 
 > 깃설정
 > 
-$ git config --global user.name ai7dnn 사용자 이름
+$ git config --global user.name ---- 사용자 이름
 
-$ git config --global user.email ai7dnn@gmail.com 사용자 전자메일
+$ git config --global user.email ----@gmail.com 사용자 전자메일
 
 $ git config --global core.autocrlf true 줄바꿈 자동변환
 
