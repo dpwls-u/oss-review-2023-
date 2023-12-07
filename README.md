@@ -17,7 +17,6 @@
     
     $ git config --global init.defalutBranch main
 
-    물론이죠! 명령어들을 간결하게 요약해보겠습니다.
     
 ## ▲ 원격저장소
 > 원격 저장소 복제
