@@ -25,11 +25,23 @@ git init basic : 현재 폴더 하부에 폴더 basic을 생성하고 git reposi
 
 > 저장소 생성 확인
 > 
-$ cd basic 폴더 이동
+- $ cd basic 폴더 이동
 
-$ ls -al 파일 확인
+- $ ls -al 파일 확인
 
 ## ▲ 깃커밋 로그
+> 커밋(commit)
+
+- 버전 관리 위해 현재 스테이지 영역의 내용에 대해 스냅샷 찍는 명령
+- $ git commit   커밋 메시지를 입력할 기본 편집기 실행됨
+  
+  $ git commit -m ‘message'   커밋 메시지를 직접 입력 [-m | --message]
+  
+  $ git commit -a -m ‘message'    추가와 커밋을 함께 실행 [-a | --all]
+  
+  $ git commit -am ‘message'
+
+
 > status 
 
 - 파일 처음 생성:
