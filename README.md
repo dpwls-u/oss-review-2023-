@@ -1,21 +1,33 @@
 * * *
 # 🖥OSS 교과목 내용(Git & GitHub)의 정리
 * * *
-## ▲ 깃설정에대해 알아보자
+## ▲ 깃설정과 저장소 생성
 
 > 깃설정
 > 
-$ git config --global user.name ---- 사용자 이름
+ $ git config --global user.name ---- 사용자 이름
 
-$ git config --global user.email ----@gmail.com 사용자 전자메일
+ $ git config --global user.email ----@gmail.com 사용자 전자메일
 
-$ git config --global core.autocrlf true 줄바꿈 자동변환
+ $ git config --global core.autocrlf true 줄바꿈 자동변환
 
-$ git config --global core.safecrlf false 줄바꿈 안전 설정
+ $ git config --global core.safecrlf false 줄바꿈 안전 설정
 
-$ git config --global core.editor 'code --wait' 기본 편집기 설정
+ $ git config --global core.editor 'code --wait' 기본 편집기 설정
 
-$ git config --global init.defaultBranch main 기본 브랜치 이름
+ $ git config --global init.defaultBranch main 기본 브랜치 이름
+
+> 저장소 생성
+>
+git init : 현재 디렉토리를 git repository로 만들기 위해서 사용
+
+git init basic : 현재 폴더 하부에 폴더 basic을 생성하고 git repository로 만들기 위해서 사용
+
+> 저장소 생성 확인
+> 
+$ cd basic 폴더 이동
+
+$ ls -al 파일 확인
 
     
 ## ▲ 원격저장소
